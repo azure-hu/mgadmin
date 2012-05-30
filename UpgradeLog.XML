@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MiracleDKP">
+</Property><Property Name="Solution File" Value="C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\MiracleDKP.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\MiracleDKP.suo">
+</Property><Property Name="Date" Value="2012. május 29.">
+</Property><Property Name="Time" Value="15:36">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MiracleDKP.sln" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MiracleDKP.suo" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP.suo">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\MiracleDKP.csproj" Description="Project file successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\MiracleDKP.csproj">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\MiracleDKP.csproj.user" Description="Project user file successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\MiracleDKP.csproj.user">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Admin.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Admin.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Admin.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Admin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Control.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Control.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Control.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Control.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Basic.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Basic.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Basic.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Basic.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Main.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Main.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Main.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Main.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Program.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Program.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Properties\Settings.settings" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\skywall.jpg" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\skywall.jpg">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\chaos_orb.jpg" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\chaos_orb.jpg">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\chaos_orb2.png" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\chaos_orb2.png">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\maelstrom.jpg" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\maelstrom.jpg">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\emerald.jpg" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\emerald.jpg">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\nagrand.jpg" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\nagrand.jpg">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Resources\chaos_orb21.ico" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Resources\chaos_orb21.ico">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Control.resx" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Control.resx">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Main.resx" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Main.resx">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\MiracleDKP\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\MiracleDKP.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MiracleDKP" Source="MiracleDKP\MiracleDKP.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\libMiracle.csproj" Description="Project file successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\libMiracle\libMiracle.csproj">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\Class1.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\libMiracle\Class1.cs">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\libMiracle\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\libMiracle\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Azur3\Documents\Visual Studio 2008\Projects\MiracleDKP\Backup\libMiracle\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\libMiracle.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="libMiracle" Source="libMiracle\libMiracle.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MiracleDKP.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MiracleDKP.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MiracleDKP" Source="MiracleDKP\MiracleDKP.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="libMiracle" Source="libMiracle\libMiracle.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
