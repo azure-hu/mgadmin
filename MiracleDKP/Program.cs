@@ -15,7 +15,10 @@ namespace MiracleDKP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            _news = new MiracleDKP.News();
+            Application.Run(_news);
         }
+
+        static MiracleDKP.MainForm _news;
     }
 }

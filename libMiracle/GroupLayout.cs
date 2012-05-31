@@ -17,13 +17,17 @@ namespace libMiracle
             //
             // Player's TextBox
             //
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < 4; j++)
+                for (int j = 0; j < 5; j++)
                 {
                     int _count = (i * 5) + j;
                     _players[_count] = new System.Windows.Forms.TextBox();
+                    _players[_count].Width = 180;
                     raidGroups[i].Controls.Add(_players[_count]);
+                    _players[_count].Left = 10;
+                    _players[_count].Top = 20 + (j * 6) + (j * 20);
+
                 }
 
             }

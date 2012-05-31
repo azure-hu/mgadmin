@@ -51,7 +51,7 @@
             this.mainGroupBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainGroupBox.Location = new System.Drawing.Point(0, 0);
             this.mainGroupBox.Name = "mainGroupBox";
-            this.mainGroupBox.Size = new System.Drawing.Size(620, 400);
+            this.mainGroupBox.Size = new System.Drawing.Size(625, 360);
             this.mainGroupBox.TabIndex = 0;
             this.mainGroupBox.TabStop = false;
             this.mainGroupBox.Text = "Group Layout";
@@ -59,54 +59,54 @@
             // 
             // ActionsGroup
             // 
-            this.ActionsGroup.Location = new System.Drawing.Point(3, 16);
+            this.ActionsGroup.Location = new System.Drawing.Point(5, 16);
             this.ActionsGroup.Name = "ActionsGroup";
-            this.ActionsGroup.Size = new System.Drawing.Size(200, 185);
+            this.ActionsGroup.Size = new System.Drawing.Size(200, 160);
             this.ActionsGroup.TabIndex = 0;
             this.ActionsGroup.TabStop = false;
             this.ActionsGroup.Text = "Actions";
             // 
             // raidGroup3
             // 
-            this.raidGroups[2].Location = new System.Drawing.Point(3, 207);
+            this.raidGroups[2].Location = new System.Drawing.Point(5, 187);
             this.raidGroups[2].Name = "raidGroup3";
-            this.raidGroups[2].Size = new System.Drawing.Size(200, 185);
+            this.raidGroups[2].Size = new System.Drawing.Size(200, 160);
             this.raidGroups[2].TabIndex = 1;
             this.raidGroups[2].TabStop = false;
             this.raidGroups[2].Text = "Group 3";
             // 
             // raidGroup1
             // 
-            this.raidGroups[0].Location = new System.Drawing.Point(209, 16);
+            this.raidGroups[0].Location = new System.Drawing.Point(212, 16);
             this.raidGroups[0].Name = "raidGroup1";
-            this.raidGroups[0].Size = new System.Drawing.Size(200, 185);
+            this.raidGroups[0].Size = new System.Drawing.Size(200, 160);
             this.raidGroups[0].TabIndex = 2;
             this.raidGroups[0].TabStop = false;
             this.raidGroups[0].Text = "Group 1";
             // 
             // raidGroup4
             // 
-            this.raidGroups[3].Location = new System.Drawing.Point(209, 207);
+            this.raidGroups[3].Location = new System.Drawing.Point(212, 187);
             this.raidGroups[3].Name = "raidGroup4";
-            this.raidGroups[3].Size = new System.Drawing.Size(200, 185);
+            this.raidGroups[3].Size = new System.Drawing.Size(200, 160);
             this.raidGroups[3].TabIndex = 4;
             this.raidGroups[3].TabStop = false;
             this.raidGroups[3].Text = "Group 4";
             // 
             // raidGroup2
             // 
-            this.raidGroups[1].Location = new System.Drawing.Point(414, 16);
+            this.raidGroups[1].Location = new System.Drawing.Point(420, 16);
             this.raidGroups[1].Name = "raidGroup2";
-            this.raidGroups[1].Size = new System.Drawing.Size(200, 185);
+            this.raidGroups[1].Size = new System.Drawing.Size(200, 160);
             this.raidGroups[1].TabIndex = 5;
             this.raidGroups[1].TabStop = false;
             this.raidGroups[1].Text = "Group 2";
             // 
             // raidGroup5
             // 
-            this.raidGroups[4].Location = new System.Drawing.Point(414, 207);
+            this.raidGroups[4].Location = new System.Drawing.Point(420, 187);
             this.raidGroups[4].Name = "raidGroup5";
-            this.raidGroups[4].Size = new System.Drawing.Size(200, 185);
+            this.raidGroups[4].Size = new System.Drawing.Size(200, 160);
             this.raidGroups[4].TabIndex = 6;
             this.raidGroups[4].TabStop = false;
             this.raidGroups[4].Text = "Group 5";
@@ -116,7 +116,7 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.mainGroupBox);
             this.Name = "GroupLayout";
-            this.Size = new System.Drawing.Size(620, 400);
+            this.Size = new System.Drawing.Size(625, 360);
             this.mainGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
