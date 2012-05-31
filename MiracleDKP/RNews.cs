@@ -10,12 +10,12 @@ using System.Diagnostics;
 
 namespace MiracleDKP
 {
-    public partial class News : MainForm
+    public partial class RNews : MainForm
     {
         private MiracleDKP.DBEngine _aDB;
         private List<MiracleDKP.Info> _infos;
         private int _infoIndex;
-        public News()
+        public RNews()
         {
             InitializeComponent();
         }
@@ -69,10 +69,39 @@ namespace MiracleDKP
             this.Close();
         }
 
+        private void loginButton_Click(object sender, EventArgs e)
+       {
+            MiracleDKP.Login _login = new MiracleDKP.Login();
+            if (_login.ShowDialog() == DialogResult.OK)
+            {
+                bool _loginOk = _aDB.InitAdminLogin(_login.userBox.Text, _login.passBox.Text);
+                
+                if (_loginOk)
+                {
+                    membersButton.Enabled = true;
+                    raidButton.Enabled = true;
+                    dkpButton.Enabled = true;
+                    loginButton.Enabled = false;
+                }
+            }
+        }
+
+        private void membersButton_Click(object sender, EventArgs e)
+        {
+            MiracleDKP.MainForm _members = new MiracleDKP.Members(_aDB);
+            _members.ShowDialog();
+        }
+
         private void dkpButton_Click(object sender, EventArgs e)
         {
             MiracleDKP.MainForm _dkpView = new MiracleDKP.DKPView();
             _dkpView.ShowDialog();
+        }
+
+        private void raidButton_Click(object sender, EventArgs e)
+        {
+            MiracleDKP.MainForm _raidControl = new MiracleDKP.RaidControl();
+            _raidControl.ShowDialog();
         }
 
         private void UpdateNewsLabel()
@@ -105,5 +134,6 @@ namespace MiracleDKP
                 prevButton.Enabled = false;
             UpdateNewsLabel();
         }
+
     }
 }

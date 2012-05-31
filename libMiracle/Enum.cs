@@ -28,7 +28,8 @@ namespace libMiracle
 
     public enum CharProfession
     {
-        Enchanting, Skinning, Tailoring
+        Alchemy, Blacksmithing, Enchanting, Engineering, Herbalism, Inscription, Jewelcrafting, 
+        Leatherworking, Mining, Skinning, Tailoring
         
     }
 

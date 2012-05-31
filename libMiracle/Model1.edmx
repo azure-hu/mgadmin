@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="miraclehunModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="miraclehunModelStoreContainer">
+          <EntitySet Name="altchars" EntityType="miraclehunModel.Store.altchars" store:Type="Tables" Schema="miraclehun" />
+          <EntitySet Name="characters" EntityType="miraclehunModel.Store.characters" store:Type="Tables" Schema="miraclehun" />
+          <EntitySet Name="dkp" EntityType="miraclehunModel.Store.dkp" store:Type="Tables" Schema="miraclehun" />
+        </EntityContainer>
+        <EntityType Name="altchars">
+          <Key>
+            <PropertyRef Name="alt_id" />
+          </Key>
+          <Property Name="alt_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="main_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="characters">
+          <Key>
+            <PropertyRef Name="keycode" />
+          </Key>
+          <Property Name="keycode" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="16" />
+          <Property Name="class" Type="tinyint" Nullable="false" />
+          <Property Name="is_main" Type="bool" />
+          <Property Name="role_main" Type="bool" Nullable="false" />
+          <Property Name="role_alt" Type="bool" Nullable="false" />
+          <Property Name="profession_main" Type="tinyint" Nullable="false" />
+          <Property Name="profession_alt" Type="tinyint" Nullable="false" />
+          <Property Name="rank" Type="varchar" Nullable="false" MaxLength="12" />
+          <Property Name="join_date" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dkp">
+          <Key>
+            <PropertyRef Name="dkp_id" />
+          </Key>
+          <Property Name="dkp_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="keycode" Type="int" Nullable="false" />
+          <Property Name="points" Type="int" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="miraclehunModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="MiracleEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="altchars" EntityType="miraclehunModel.altchar" />
+          <EntitySet Name="characters" EntityType="miraclehunModel.character" />
+          <EntitySet Name="dkps" EntityType="miraclehunModel.dkp" />
+        </EntityContainer>
+        <EntityType Name="altchar">
+          <Key>
+            <PropertyRef Name="alt_id" />
+          </Key>
+          <Property Name="alt_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="main_id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="character">
+          <Key>
+            <PropertyRef Name="keycode" />
+          </Key>
+          <Property Name="keycode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="String" Nullable="false" />
+          <Property Name="class" Type="SByte" Nullable="false" />
+          <Property Name="is_main" Type="Boolean" />
+          <Property Name="role_main" Type="Boolean" Nullable="false" />
+          <Property Name="role_alt" Type="Boolean" Nullable="false" />
+          <Property Name="profession_main" Type="SByte" Nullable="false" />
+          <Property Name="profession_alt" Type="SByte" Nullable="false" />
+          <Property Name="rank" Type="String" Nullable="false" />
+          <Property Name="join_date" Type="DateTime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dkp">
+          <Key>
+            <PropertyRef Name="dkp_id" />
+          </Key>
+          <Property Name="dkp_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="keycode" Type="Int32" Nullable="false" />
+          <Property Name="points" Type="Int32" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="miraclehunModelStoreContainer" CdmEntityContainer="MiracleEntities">
+          <EntitySetMapping Name="altchars"><EntityTypeMapping TypeName="miraclehunModel.altchar"><MappingFragment StoreEntitySet="altchars">
+            <ScalarProperty Name="alt_id" ColumnName="alt_id" />
+            <ScalarProperty Name="main_id" ColumnName="main_id" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="characters"><EntityTypeMapping TypeName="miraclehunModel.character"><MappingFragment StoreEntitySet="characters">
+            <ScalarProperty Name="keycode" ColumnName="keycode" />
+            <ScalarProperty Name="name" ColumnName="name" />
+            <ScalarProperty Name="class" ColumnName="class" />
+            <ScalarProperty Name="is_main" ColumnName="is_main" />
+            <ScalarProperty Name="role_main" ColumnName="role_main" />
+            <ScalarProperty Name="role_alt" ColumnName="role_alt" />
+            <ScalarProperty Name="profession_main" ColumnName="profession_main" />
+            <ScalarProperty Name="profession_alt" ColumnName="profession_alt" />
+            <ScalarProperty Name="rank" ColumnName="rank" />
+            <ScalarProperty Name="join_date" ColumnName="join_date" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="dkps"><EntityTypeMapping TypeName="miraclehunModel.dkp"><MappingFragment StoreEntitySet="dkp">
+            <ScalarProperty Name="dkp_id" ColumnName="dkp_id" />
+            <ScalarProperty Name="keycode" ColumnName="keycode" />
+            <ScalarProperty Name="points" ColumnName="points" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="miraclehunModel.altchar" Width="1.5" PointX="0.75" PointY="0.75" Height="1.4033821614583331" IsExpanded="true" />
+        <EntityTypeShape EntityType="miraclehunModel.character" Width="1.5" PointX="2.75" PointY="0.75" Height="2.9417936197916656" IsExpanded="true" />
+        <EntityTypeShape EntityType="miraclehunModel.dkp" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5956835937499996" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

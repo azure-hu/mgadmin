@@ -1,0 +1,67 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.1
+-- http://www.phpmyadmin.net
+--
+-- Hoszt: db4free.net:3306
+-- Létrehozás ideje: 2012. máj. 31. 11:19
+-- Szerver verzió: 5.6.5-m8-log
+-- PHP verzió: 5.3.10-1ubuntu3.1
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Adatbázis: `miraclehun`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet: `altchars`
+--
+
+DROP TABLE IF EXISTS `altchars`;
+CREATE TABLE IF NOT EXISTS `altchars` (
+  `alt_id` int(5) NOT NULL AUTO_INCREMENT,
+  `main_id` int(5) NOT NULL,
+  PRIMARY KEY (`alt_id`),
+  UNIQUE KEY `alt_id` (`alt_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet: `characters`
+--
+
+DROP TABLE IF EXISTS `characters`;
+CREATE TABLE IF NOT EXISTS `characters` (
+  `keycode` int(5) NOT NULL AUTO_INCREMENT,
+  `name` varchar(16) NOT NULL,
+  `class` tinyint(2) NOT NULL,
+  `is_main` tinyint(1) DEFAULT NULL,
+  `role_main` tinyint(1) NOT NULL,
+  `role_alt` tinyint(1) NOT NULL,
+  `profession_main` tinyint(2) NOT NULL,
+  `profession_alt` tinyint(2) NOT NULL,
+  `rank` varchar(12) NOT NULL,
+  `join_date` date NOT NULL,
+  PRIMARY KEY (`keycode`),
+  UNIQUE KEY `keycode` (`keycode`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet: `dkp`
+--
+
+DROP TABLE IF EXISTS `dkp`;
+CREATE TABLE IF NOT EXISTS `dkp` (
+  `dkp_id` int(5) NOT NULL AUTO_INCREMENT,
+  `keycode` int(5) NOT NULL,
+  `points` int(7) NOT NULL,
+  PRIMARY KEY (`dkp_id`),
+  UNIQUE KEY `dkp_id_keycode` (`dkp_id`,`keycode`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
